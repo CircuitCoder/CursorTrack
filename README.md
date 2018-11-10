@@ -5,3 +5,11 @@
 # Compile
 
 You just cmake, then you make
+
+```bash
+# Change the compiler prefix
+editor ./toolchain.cmake
+
+# CMake it
+cmake -DCMAKE_TOOLCHAIN_FILE=./toolchain.cmake .
+ ```

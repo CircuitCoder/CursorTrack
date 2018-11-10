@@ -1,0 +1,11 @@
+# CMake
+/Makefile
+/CMakeFiles
+/CMakeCache.txt
+/cmake_install.cmake
+
+# Vim
+.*.sw[a-p]
+
+# Targets
+*.exe
