@@ -31,3 +31,4 @@ add_executable(ctrack ${SRC_LIST} ${HDR_LIST})
 
 target_link_libraries(ctrack ${Boost_LIBRARIES})
 target_link_libraries(ctrack ws2_32)
+target_link_libraries(ctrack wsock32)
